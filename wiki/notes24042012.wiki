@@ -1,0 +1,23 @@
+#summary Notatki / 24.04.2012
+
+Prezentacja artykułu jest pod koniec czerwca.
+Aplikację chcemy mieć gotową do końca semestru.
+
+  * Chcemy, aby użytkownik musiał wstawić na stronie tylko jeden element <div> z parametrami, załączył jeden plik .js, i w onbodyload za pomocą jQuery pobrał wszystkie divy z klasą 'web3dviewer' i na każdym z nich wywołał init(component).
+
+  * Parametrami <div> są:
+    * width, height - wymiary Renderera,
+    * source - adres pod którym dostępny jest dostarczyciel siatek (np. http://rass.iem.pw.edu.pl/web3dviewer/mesh.php),
+    * mesh - nazwa siatki, która ma zostać wczytana (zostanie to podane potem jako argument dla souce).
+
+  * Chcemy scalić pliki refine_mesh.php i base_mesh.php do jednego (uwspólnić interfejs komunikacyjny).
+
+  * Bartek C. sprawdzi, które siatki są poprawne. Chcemy mieć trzy: nogę, rękę i głowę. Wywalamy Walta Disneya.
+
+  * Na razie *nie* robimy zewnętrznego interfejsu www do zwijacza siatek.
+
+  * Chcemy skompilować naszą bibliotekę do jednego pliku .js za pomocą Clousure Compiler (używany przez Three.js).
+
+  * Chcemy przygotować listę przeglądarek i konfiguracji sprzętowych na których nasza aplikacja działa/ma działać.
+
+  * Następne spotkanie będzie po majówce (po 7 maja).
